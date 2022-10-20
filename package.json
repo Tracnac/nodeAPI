@@ -1,0 +1,31 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "NodeJS + Swagger + API",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tracnac/nodeAPI.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "swagger"
+  ],
+  "author": "Tracnac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tracnac/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/Tracnac/nodeAPI#readme",
+  "devDependencies": {
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
